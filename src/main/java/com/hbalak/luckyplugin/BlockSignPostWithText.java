@@ -33,7 +33,7 @@ public class BlockSignPostWithText extends BlockSignPost {
                     .putString("Text2", text2)
                     .putString("Text3", text3)
                     .putString("Text4", text4);
-
+            int meta;
             if (face == BlockFace.UP) {
                 meta = (int) Math.floor(((player.yaw + 180) * 16 / 360) + 0.5) & 0x0f;
                 getLevel().setBlock(block, new BlockSignPost(meta), true);
