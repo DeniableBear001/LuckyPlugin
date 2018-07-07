@@ -1,0 +1,16 @@
+name: LuckyPlugin
+main: com.hbalak.luckyplugin.MainClass
+version: "1.0"
+api: ["1.0.0"]
+
+load: STARTUP
+author: kniffo80, matt404, augesrob, PetteriM1
+description: Lucky plugin for Nukkit
+website: https://github.com/Nukkit-coders/mob-plugin
+
+commands:
+  lucky:
+    description: LuckyPlugin main command
+    aliases: ["lucky"]
+    usage: /lucky  
+
